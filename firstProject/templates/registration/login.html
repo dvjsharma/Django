@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <!-- Django already has this form associated with a model called user only for login.html -->
+        {{form.as_p}}
+        <button type="submit" name="button">Login</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environments
+env/
+venv/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Miscellaneous
+*.swp
+README.md
